@@ -5,4 +5,3 @@ print(1000)
 print(5+3)
 print(2*8)
 print(3*(3+1))
-#정리 완료
