@@ -18,7 +18,7 @@ hobby = "낮잠"
 is_adult = age >= 3
 print("우리집 " + animal + "의 이름은 " + name + "예요")
 hobby = "공놀이"
-#print(name + "는 " + str(age) + "살이며, " + hobby + "을 아주 좋아해요")
+#print(name + "는 " + str(age) + "살이며, " + hobby + "을 아주 좋아해요") #글자는 글자끼리, 숫자는 숫자끼리만 더할 수 있음. 그래서 age를 str로 바꿔줌
 print(name, "는 ", age, "살이며, ", hobby, "을 아주 좋아해요")
 print(name + "는 어른일까요? " + str(is_adult))
 # 퀴즈 1
@@ -84,7 +84,7 @@ from random import *
 # print(int(random() * 10 + 1))
 # print(int(random() * 10 + 1))
 print(int(random() * 45 + 1)) # 1 ~ 45 미만의 임의의 값 생성
-print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성
+print(randrange(1, 46)) # 1 ~ 46 미만의 임의의 값 생성 # 45가 아니라 46까지 나올 수 있음
 print(randint(1, 45)) # 1 ~ 45 이하의 임의의 값 생성
 # print(randint(1, 28)) # 1 ~ 28 이하의 임의의 값 생성
 # print("오프라인 스터디 모임 날짜는 매월" + str(randint(1, 28)) + "일로 선정되었습니다.")
@@ -153,7 +153,7 @@ print("백문이 불여일견\n백견이 불여일타")
 # print("저는 '나도코딩'입니다.")
 # print('저는 "나도코딩"입니다.')
 # print("저는 \"나도코딩\"입니다.")
-# print("저는 \'나도코딩\'입니다.")
+# print("저는 \'나도코딩\'입니다.") 
 
 # \\ : 문장 내에서 \
 # print("C:\\Users\\user\\Desktop\\PythonWorkspace")
@@ -169,7 +169,7 @@ print("백문이 불여일견\n백견이 불여일타")
 
 # 퀴즈 3
 # url = "http://naver.com"
-url = "http://yotube.com"
+url = "http://youtube.com"
 my_str = url.replace("http://", "") # 규칙1
 # print(my_str)
 my_str = my_str[:my_str.index(".")] # 규칙2
